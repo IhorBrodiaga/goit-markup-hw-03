@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 72px;
+    gap: 24px;
 }
 
 .team-list h3 {
