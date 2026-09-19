@@ -1,6 +1,27 @@
+.features-title {
+    display: none;
+}
 
+.features-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.features-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: calc((100% - 24px * 3) / 4);
+}
 
 .features-list h3 {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
