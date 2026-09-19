@@ -1,4 +1,4 @@
-.features-title {
+.sr-only {
     display: none;
 }
 
@@ -9,6 +9,8 @@
     flex-direction: row;
     gap: 24px;
     flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-item {

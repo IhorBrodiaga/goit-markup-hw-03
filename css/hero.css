@@ -1,8 +1,9 @@
 .hero {
     background: #2e2f42;
     text-align: center;
-    display: flex;
     align-items: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero .sol {
@@ -16,6 +17,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 48px;
+    max-width: 496px;
 }
 
 .order {
@@ -32,6 +34,7 @@
     border: none;
     display: block;
     margin: 0 auto;
+    margin-top: 48px;
 }
 
 .order:hover,

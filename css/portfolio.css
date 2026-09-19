@@ -1,3 +1,7 @@
+.portfolio {
+    padding: 120px 0;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -5,14 +9,16 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 72px;
+    flex-direction: row;
+    gap: 48px 24px;
 }
 
 .portfolio-list h3 {
@@ -46,7 +52,7 @@
 }
 
 .portfolio-item img {
-    display: flex;
+    display: block;
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
